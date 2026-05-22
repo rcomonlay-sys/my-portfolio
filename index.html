@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — Professional</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">Portfolio</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero-bg-text">PORTFOLIO</div>
+    <div class="hero-content">
+      <div class="hero-photo-wrap">
+        <div class="photo-ring"></div>
+        <img src="profile.png" alt="Profile Photo" class="hero-photo" id="hero-photo" />
+        <div class="photo-accent"></div>
+      </div>
+      <div class="hero-text">
+        <p class="hero-label">Hello, I'm</p>
+        <h1 class="hero-name">Your Name</h1>
+        <h2 class="hero-role">Full Stack Developer</h2>
+        <p class="hero-bio">
+          A passionate developer who crafts clean, performant digital experiences.
+          I bring ideas to life through code — from concept to deployment.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn-primary">View Projects</a>
+          <a href="#contact" class="btn-outline">Get In Touch</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-label">01 / About</div>
+      <h2 class="section-title">Who I Am</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm a developer with a keen eye for design and a love for building
+            things that matter. Whether working on web apps, APIs, or open-source
+            tools, I bring dedication and craftsmanship to every project.
+          </p>
+          <p>
+            Outside of code, I explore new technologies, contribute to the
+            community, and continuously sharpen my skills to stay ahead of the curve.
+          </p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-num" data-target="12">0</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num" data-target="3">0</span>
+              <span class="stat-label">Years Exp.</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num" data-target="8">0</span>
+              <span class="stat-label">Technologies</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-docs">
+          <h3>Professional Documents</h3>
+          <ul class="doc-list">
+            <li class="doc-item">
+              <span class="doc-icon">📄</span>
+              <div>
+                <strong>Resume / CV</strong>
+                <p>Download my latest resume in PDF format</p>
+              </div>
+              <a href="#" class="doc-link">Download</a>
+            </li>
+            <li class="doc-item">
+              <span class="doc-icon">🔗</span>
+              <div>
+                <strong>LinkedIn</strong>
+                <p>Connect with me professionally</p>
+              </div>
+              <a href="#" class="doc-link">Visit</a>
+            </li>
+            <li class="doc-item">
+              <span class="doc-icon">💻</span>
+              <div>
+                <strong>GitHub</strong>
+                <p>Browse my code repositories</p>
+              </div>
+              <a href="#" class="doc-link">Visit</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-label">02 / Projects</div>
+      <h2 class="section-title">Featured Work</h2>
+      <div class="projects-grid">
+
+        <div class="project-card" data-index="0">
+          <div class="project-img-wrap">
+            <div class="project-placeholder">Project 1</div>
+            <div class="project-overlay">
+              <a href="#" class="project-link-btn">Live Demo ↗</a>
+              <a href="#" class="project-link-btn">GitHub ↗</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Web App</span>
+            <h3>Project Title One</h3>
+            <p>A brief description of your role, the tools used, and the outcome of this project.</p>
+            <div class="project-tech">
+              <span>React</span><span>Node.js</span><span>MongoDB</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-index="1">
+          <div class="project-img-wrap">
+            <div class="project-placeholder">Project 2</div>
+            <div class="project-overlay">
+              <a href="#" class="project-link-btn">Live Demo ↗</a>
+              <a href="#" class="project-link-btn">GitHub ↗</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-tag">API</span>
+            <h3>Project Title Two</h3>
+            <p>Describe your contribution, the challenge solved, and the technologies behind it.</p>
+            <div class="project-tech">
+              <span>Python</span><span>FastAPI</span><span>PostgreSQL</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-index="2">
+          <div class="project-img-wrap">
+            <div class="project-placeholder">Project 3</div>
+            <div class="project-overlay">
+              <a href="#" class="project-link-btn">Live Demo ↗</a>
+              <a href="#" class="project-link-btn">GitHub ↗</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Mobile</span>
+            <h3>Project Title Three</h3>
+            <p>What you built, why it matters, and the results it achieved for users or clients.</p>
+            <div class="project-tech">
+              <span>Flutter</span><span>Firebase</span><span>Dart</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-index="3">
+          <div class="project-img-wrap">
+            <div class="project-placeholder">Project 4</div>
+            <div class="project-overlay">
+              <a href="#" class="project-link-btn">Live Demo ↗</a>
+              <a href="#" class="project-link-btn">GitHub ↗</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Dashboard</span>
+            <h3>Project Title Four</h3>
+            <p>Overview of the project scope, your specific role, and measurable outcomes.</p>
+            <div class="project-tech">
+              <span>Vue.js</span><span>D3.js</span><span>Express</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-label">03 / Skills</div>
+      <h2 class="section-title">Technical Toolkit</h2>
+      <div class="skills-layout">
+        <div class="skills-categories">
+          <div class="skill-category">
+            <h3>Languages</h3>
+            <div class="skill-tags">
+              <span>JavaScript</span><span>Python</span><span>TypeScript</span>
+              <span>HTML</span><span>CSS</span><span>SQL</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Frameworks & Libraries</h3>
+            <div class="skill-tags">
+              <span>React</span><span>Node.js</span><span>Vue.js</span>
+              <span>Express</span><span>FastAPI</span><span>Flutter</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Tools & Platforms</h3>
+            <div class="skill-tags">
+              <span>Git</span><span>Docker</span><span>AWS</span>
+              <span>Firebase</span><span>VS Code</span><span>Figma</span>
+            </div>
+          </div>
+        </div>
+        <div class="certifications">
+          <h3>Certifications</h3>
+          <div class="cert-list">
+            <div class="cert-card">
+              <div class="cert-badge">🏆</div>
+              <div>
+                <strong>AWS Cloud Practitioner</strong>
+                <p>Amazon Web Services · 2024</p>
+              </div>
+            </div>
+            <div class="cert-card">
+              <div class="cert-badge">🎓</div>
+              <div>
+                <strong>Meta Front-End Developer</strong>
+                <p>Coursera · 2023</p>
+              </div>
+            </div>
+            <div class="cert-card">
+              <div class="cert-badge">⭐</div>
+              <div>
+                <strong>Google UX Design</strong>
+                <p>Google · 2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-label">04 / Contact</div>
+      <h2 class="section-title">Let's Connect</h2>
+      <div class="contact-layout">
+        <div class="contact-text">
+          <p>Have a project in mind or want to collaborate? Feel free to reach out — I'm always open to new opportunities.</p>
+          <div class="contact-links">
+            <a href="mailto:hello@example.com" class="contact-item">
+              <span class="ci-icon">✉</span> randolfComonlay@gmail.com
+            </a>
+            <a href="#" class="contact-item">
+              <span class="ci-icon">💼</span> LinkedIn
+            </a>
+            <a href="#" class="contact-item">
+              <span class="ci-icon">🐙</span> GitHub
+            </a>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Randolf Comonlay" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="your@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary full-width">Send Message</button>
+          <p class="form-success" id="form-success">Message sent! I'll get back to you soon.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 Randolf · Built with passion</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
